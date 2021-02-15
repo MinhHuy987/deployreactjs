@@ -1,0 +1,57 @@
+
+.app{
+    display: grid;
+    place-items: center;
+    height: 100vh;
+    background-color: #dadbd3;
+}
+.app_body{
+    display:flex;
+    background-color: azure;
+    margin-top:-50px;
+    height:90vh;
+    width:90vw;
+}
+.main{
+    display:flex
+
+}
+.main_square{
+    margin-left: 20px;
+    
+}
+.main_square:hover{
+    border:1px solid green;
+}
+.main_monster{
+    width:300px;
+    height:400px;
+    border:1px solid gray;
+}
+.main_details{
+    position: relative;
+    top:-74px;
+    background-color:orange;
+    text-align: center;
+   width:186px;
+    height:74px;
+}
+
+.footer >h3{
+    font-size: 12px;
+margin-left: 5px;
+}
+.main_title{
+    height:60px;
+    text-align: center;
+
+}
+.main_title >h3{
+    font-size: xx-small;
+}
+.equip{
+    display:block;
+}
+.none{
+    display:none;
+}

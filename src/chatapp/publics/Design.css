@@ -1,0 +1,64 @@
+*{
+    margin:0;padding:0
+}
+.main{
+    background-color: grey;
+   width:100%;
+   height:100%;
+}
+.me,.enermy{
+    height:328px;
+    border:1px solid black;
+    display:flex;
+   
+}
+.me_field{
+    
+    height:100%;
+    border:1px solid green;
+    
+    width:70%;
+}
+.desk,.spell{
+    height:100%;
+    border:1px solid green;
+    width:15%;
+
+}
+.onField,.onHand{
+    display:flex;
+    width:100%;
+    height:50%;
+    border:1px solid black;
+}
+.me_square,.me_card{
+    width:18%;
+    height:100%;
+    border:1px solid red;
+    margin-left: 2%;
+}
+.me_card:hover > .summon{
+    display:block;
+}
+.me_card >img{
+    width:100%;
+    height:100%;
+}
+.summon{
+    display:none;
+    float:right;
+    position: relative;
+    top:-158px;
+
+}
+.summon li{
+    list-style: none;
+    
+}
+.summon li>button{
+    width:60px;
+    border:none;
+}
+.summon li button:hover{
+    background-color: green;
+}

@@ -1,0 +1,18 @@
+*{
+  padding:0;
+  margin:0;
+}
+
+.navbarchat{
+    display: flex;
+    padding:20px;
+    cursor: pointer;
+    border-bottom: 1 px solid gray;
+}
+.navbarchat:hover{
+  background-color: gray;
+}
+.navbarchat_info{
+  margin-left:20px;
+}
+
